@@ -1,0 +1,138 @@
+/********************************************************************/
+/*Styling for the Navigation Bar*/
+.navbar{
+    background-color:dodgerblue;
+    overflow: hidden;
+    border-radius: 2em;
+}
+.name{
+    float:left;
+    font-weight: bolder;
+    font-size: 30px !important; 
+}
+.navbar a{
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    color:azure;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    font-size: 15px;
+}
+.navbar a:hover{
+    background-color: azure;
+    color: dodgerblue;
+}
+
+/********************************************************************/
+/*Styling for the Home Page*/
+body{
+    background-color:rgb(63, 74, 238);
+}
+.aboutme{
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
+.aboutme h1{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(79, 235, 235);
+}
+.aboutme p{
+    color:rgb(79, 235, 235);
+}
+.aboutme figure{
+    border-radius: 2em;
+}
+
+/*Styling the footer*/
+footer{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 3%;
+}
+footer a{
+    padding: 3%
+}
+
+/********************************************************************/
+/*Styling the portfolio page*/
+.portfolio h1{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(79, 235, 235);
+}
+.portfolio h2{
+    color: rgb(191, 160, 231);
+}
+.portfolio p, h2{
+    color:aliceblue;
+}
+.portfolio a:visited{
+    color:azure;
+}
+
+/*Styling the table*/
+.skills h2{
+    color: rgb(191, 160, 231);
+}
+table{
+    text-align: left;
+    border: solid 2pt darkblue;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+td{
+    border: solid;
+    border-color: darkblue;
+}
+th{
+    text-align: center;
+}
+tr{
+    border-color: darkblue;
+    border-top: 1pt;
+    border-bottom: 1pt;
+    border-left: 1pt;
+    border-right: 1pt;
+    border: 1pt;
+}
+li{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/*Styling the footer for the portfolio page*/
+.pfFooter{
+    text-align: left;
+    padding-left: 0;
+}
+
+/********************************************************************/
+/*Styling the login page as well the blog page*/
+.login legend, .blog legend{
+    color:rgb(79, 235, 235);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.login p, .blog p, .blog li{
+    color:paleturquoise;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blog.formfield{
+    vertical-align: middle;
+}
+
+.buttons{
+    background-color: rgb(79, 235, 235);
+    border-radius: 2em;
+}
+
+fieldset{
+    border-style: dashed;
+}
